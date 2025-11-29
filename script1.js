@@ -17,7 +17,6 @@ class Student extends Person {
   }
 
   introduce() {
-    super.introduce();
     console.log(`Привет, меня зовут ${this.name}, и я учусь на ${this.course} курсе`)
   }
 }
